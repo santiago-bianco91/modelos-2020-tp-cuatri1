@@ -1,2 +1,9 @@
-# modelos-2020-tp-cuatri1
-Repo la resolucion del tp de modelos y optimizacion
+PASOS
+
+1) Para generar los .class
+javac src/modeloscajas/*.java 
+
+
+Parase en src y ejeccutar el programa
+
+2) java modeloscajas.MiMain
