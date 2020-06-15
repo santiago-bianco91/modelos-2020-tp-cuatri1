@@ -80,17 +80,17 @@ public class PasadaPorScanner {
 
 	private void asignarDestinosAScannersHijos() {
 		// creo primer pasada de scanner hija
-		PasadaPorScanner pasadaPorScanner = new PasadaPorScanner(cantidadVias);
-		this.pasadasPorScannerHijas.add(pasadaPorScanner);
+		PasadaPorScanner pasadaPorScannerHija = new PasadaPorScanner(cantidadVias);
+		this.pasadasPorScannerHijas.add(pasadaPorScannerHija);
 
-		for (Destino destino : this.destinos) {
+		for (Destino destinoAAsignar : this.destinos) {
 			PasadaPorScanner ultimaPasadaPorScanner = this.pasadasPorScannerHijas
 					.get(this.pasadasPorScannerHijas.size() - 1);
-			if (!this.estaLlenoElScanner(ultimaPasadaPorScanner, destino) || esElUltimoScanner()) {
-				ultimaPasadaPorScanner.agregarDestinoAProcesar(destino);
+			if (!this.estaLlenoElScanner(ultimaPasadaPorScanner, destinoAAsignar) || esElUltimoScanner()) {
+				ultimaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
 			} else {
 				PasadaPorScanner nuevaPasadaPorScanner = new PasadaPorScanner(cantidadVias);
-				nuevaPasadaPorScanner.agregarDestinoAProcesar(destino);
+				nuevaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
 				this.pasadasPorScannerHijas.add(nuevaPasadaPorScanner);
 			}
 		}

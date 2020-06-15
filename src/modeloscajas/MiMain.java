@@ -2,7 +2,7 @@ package modeloscajas;
 
 public class MiMain {
 
-	// CONFIGURACION ultima
+	// CONFIGURACION 7
 
 	private static Double TIEMPO_PROC_CAJA = 1.0;
 	private static Double TIEMPO_SETUP = 100.0;
