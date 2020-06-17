@@ -7,23 +7,23 @@ import java.util.List;
 public class PasadaPorScanner {
 
 	private List<Destino> destinos;
-	private Double cantidadVias;
+	private Double cantidadDestinosPorPasada;
 	private Double totalCajasAprocesar;
-	// en segundos
 	private List<PasadaPorScanner> pasadasPorScannerHijas;
 	private Double umbralScanner;
-	private double tiempoProcesamiento;
+	private double tiempoProcesamintoPorCaja;
+	private double tiempoSetup;
 
 	public Double getDestinosPorPasadas() {
-		return cantidadVias;
+		return cantidadDestinosPorPasada;
 	}
 
-	public double getTiempoProcesamiento() {
-		return tiempoProcesamiento;
+	public double getTiempoProcesamintoPorCaja() {
+		return tiempoProcesamintoPorCaja;
 	}
 
-	public void setTiempoProcesamiento(double tiempoProcesamiento) {
-		this.tiempoProcesamiento = tiempoProcesamiento;
+	public double getTiempoSetup() {
+		return tiempoSetup;
 	}
 
 	public void agregarDestinoAProcesar(Destino destino) {
@@ -31,25 +31,27 @@ public class PasadaPorScanner {
 		this.totalCajasAprocesar += destino.getCantidadCajas();
 	}
 
-	public PasadaPorScanner(Double cantidadVias) {
+	public PasadaPorScanner(Double cantidadDestinosPorPasada, Double tiempoSetup, Double tiempoProcesamintoPorCaja) {
 		super();
-		this.cantidadVias = cantidadVias;
-		this.umbralScanner = (double) (1 / cantidadVias);
+		this.cantidadDestinosPorPasada = cantidadDestinosPorPasada;
+		this.umbralScanner = (double) (1 / cantidadDestinosPorPasada);
 		this.pasadasPorScannerHijas = null;
 		this.destinos = new ArrayList<Destino>();
 		this.totalCajasAprocesar = 0.0;
+		this.tiempoSetup = tiempoSetup;
+		this.tiempoProcesamintoPorCaja = tiempoProcesamintoPorCaja;
 	}
 
 	public List<Destino> getDestinos() {
 		return destinos;
 	}
 
-	public Double getCantidadVias() {
-		return cantidadVias;
+	public Double getCantidadDestinosPorPasada() {
+		return cantidadDestinosPorPasada;
 	}
 
-	public void setCantidadVias(Double cantidadVias) {
-		this.cantidadVias = cantidadVias;
+	public void setCantidadDestinosPorPasada(Double cantidadDestinosPorPasada) {
+		this.cantidadDestinosPorPasada = cantidadDestinosPorPasada;
 	}
 
 	private void actualizarNumeroProcesamientoDestinos() {
@@ -66,6 +68,14 @@ public class PasadaPorScanner {
 		this.totalCajasAprocesar = totalCajasAprocesar;
 	}
 
+	private Boolean esElUltimoScanner() {
+		return (this.pasadasPorScannerHijas.size() == this.cantidadDestinosPorPasada);
+	}
+
+	public List<PasadaPorScanner> getPasadasPorScannerHijas() {
+		return pasadasPorScannerHijas;
+	}
+
 	// devuelve true si = la cantidad de cajas que va a tener el scanner hijo
 	// superara el umbral y tiene mas de un destino
 	public Boolean estaLlenoElScanner(PasadaPorScanner pasadaScannerHijo, Destino destinoNuevo) {
@@ -74,13 +84,10 @@ public class PasadaPorScanner {
 		return (cantidadCajasRelativasDestino > this.umbralScanner && !pasadaScannerHijo.getDestinos().isEmpty());
 	}
 
-	private Boolean esElUltimoScanner() {
-		return (this.pasadasPorScannerHijas.size() == this.cantidadVias);
-	}
-
 	private void asignarDestinosAScannersHijos() {
 		// creo primer pasada de scanner hija
-		PasadaPorScanner pasadaPorScannerHija = new PasadaPorScanner(cantidadVias);
+		PasadaPorScanner pasadaPorScannerHija = new PasadaPorScanner(cantidadDestinosPorPasada, this.getTiempoSetup(),
+				this.tiempoProcesamintoPorCaja);
 		this.pasadasPorScannerHijas.add(pasadaPorScannerHija);
 
 		for (Destino destinoAAsignar : this.destinos) {
@@ -89,7 +96,8 @@ public class PasadaPorScanner {
 			if (!this.estaLlenoElScanner(ultimaPasadaPorScanner, destinoAAsignar) || esElUltimoScanner()) {
 				ultimaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
 			} else {
-				PasadaPorScanner nuevaPasadaPorScanner = new PasadaPorScanner(cantidadVias);
+				PasadaPorScanner nuevaPasadaPorScanner = new PasadaPorScanner(cantidadDestinosPorPasada,
+						this.getTiempoSetup(), this.tiempoProcesamintoPorCaja);
 				nuevaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
 				this.pasadasPorScannerHijas.add(nuevaPasadaPorScanner);
 			}
@@ -113,19 +121,6 @@ public class PasadaPorScanner {
 		for (PasadaPorScanner scannerHijo : this.pasadasPorScannerHijas) {
 			scannerHijo.procesarCajas();
 		}
-	}
-
-	public void setearTiempoProcesamiento(double tiempo) {
-		this.tiempoProcesamiento = tiempo;
-
-	}
-
-	public List<PasadaPorScanner> getPasadasPorScannerHijas() {
-		return pasadasPorScannerHijas;
-	}
-
-	public void setPasadasPorScannerHijas(List<PasadaPorScanner> pasadasPorScannerHijas) {
-		this.pasadasPorScannerHijas = pasadasPorScannerHijas;
 	}
 
 	public ContadorPasadas obtenerCantidadPasdasHijas(ContadorPasadas contadorPasadas) {
