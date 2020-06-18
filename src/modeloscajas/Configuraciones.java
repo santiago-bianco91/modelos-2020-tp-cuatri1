@@ -8,7 +8,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -25,7 +25,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -42,7 +42,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -60,7 +60,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -78,7 +78,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(30, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -96,7 +96,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(30, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -114,7 +114,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(30, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(30, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -134,7 +134,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(30, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(30, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -154,7 +154,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -176,7 +176,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -198,7 +198,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -227,7 +227,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -256,7 +256,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -288,7 +288,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -320,7 +320,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -353,7 +353,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(10, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -386,7 +386,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(60, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(20, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -419,7 +419,7 @@ public class Configuraciones {
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(60, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(20, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -452,7 +452,7 @@ public class Configuraciones {
 		Double tiempoSetup = 0.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(60, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(20, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -479,14 +479,14 @@ public class Configuraciones {
 		return scanner;
 
 	}
-	
+
 	public static PasadaPorScanner configuracionDiezB() {
 
 		Double destinosPorPasdas = 4.0;
 		Double tiempoSetup = 100.0;
 		Double tiempoProcesamientoPorCaja = 1.0;
 
-		PasadaPorScanner scanner = new PasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
 		scanner.agregarDestinoAProcesar(new Destino(60, "A"));
 		scanner.agregarDestinoAProcesar(new Destino(20, "B"));
 		scanner.agregarDestinoAProcesar(new Destino(10, "C"));
@@ -514,7 +514,162 @@ public class Configuraciones {
 
 	}
 
+	public static PasadaPorScanner configuracionOnceA() {
+
+		Double destinosPorPasdas = 4.0;
+		Double tiempoSetup = 0.0;
+		Double tiempoProcesamientoPorCaja = 1.0;
+
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		scanner.agregarDestinoAProcesar(new Destino(100, "A"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "B"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "C"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "D"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "E"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "F"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "G"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "H"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "I"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "J"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "K"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "L"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "M"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "N"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "O"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "P"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Q"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "R"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "S"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "T"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "U"));
+
+		mostrarConfiguracion(scanner, "CONFIGURACION 11 SIN TIEMPO DE SETUP");
+
+		return scanner;
+	}
 	
+	public static PasadaPorScanner configuracionOnceB() {
+
+		Double destinosPorPasdas = 4.0;
+		Double tiempoSetup = 100.0;
+		Double tiempoProcesamientoPorCaja = 1.0;
+
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		scanner.agregarDestinoAProcesar(new Destino(100, "A"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "B"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "C"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "D"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "E"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "F"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "G"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "H"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "I"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "J"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "K"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "L"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "M"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "N"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "O"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "P"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Q"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "R"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "S"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "T"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "U"));
+
+		mostrarConfiguracion(scanner, "CONFIGURACION 11 CON TIEMPO DE SETUP");
+
+		return scanner;
+	}
+	
+	public static PasadaPorScanner configuracionDoceA() {
+
+		Double destinosPorPasdas = 9.0;
+		Double tiempoSetup = 0.0;
+		Double tiempoProcesamientoPorCaja = 1.0;
+
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		scanner.agregarDestinoAProcesar(new Destino(100, "A"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "B"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "C"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "D"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "E"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "F"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "G"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "H"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "I"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "J"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "K"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "L"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "M"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "N"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "O"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "P"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Q"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "R"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "S"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "T"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "U"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "V"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "W"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "X"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Y"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Z"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AA"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AB"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AC"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AD"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AE"));
+
+		mostrarConfiguracion(scanner, "CONFIGURACION 12 SIN TIEMPO DE SETUP");
+
+		return scanner;
+	}
+	
+	public static PasadaPorScanner configuracionDoceB() {
+
+		Double destinosPorPasdas = 9.0;
+		Double tiempoSetup = 100.0;
+		Double tiempoProcesamientoPorCaja = 1.0;
+
+		PasadaPorScanner scanner = PasadaPorScanner.crearPasadaPorScanner(destinosPorPasdas, tiempoSetup, tiempoProcesamientoPorCaja);
+		scanner.agregarDestinoAProcesar(new Destino(100, "A"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "B"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "C"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "D"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "E"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "F"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "G"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "H"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "I"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "J"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "K"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "L"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "M"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "N"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "O"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "P"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Q"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "R"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "S"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "T"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "U"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "V"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "W"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "X"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Y"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "Z"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AA"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AB"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AC"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AD"));
+		scanner.agregarDestinoAProcesar(new Destino(100, "AE"));
+
+		mostrarConfiguracion(scanner, "CONFIGURACION 12 CON TIEMPO DE SETUP");
+
+		return scanner;
+	}
+
 	private static void mostrarConfiguracion(PasadaPorScanner pasadaPorScanner, String nombreConfiguracion) {
 		System.out.println("CONFIGURACION: " + nombreConfiguracion + "\n");
 		System.out.println("tiempo setup de scanner: " + pasadaPorScanner.getTiempoSetup());

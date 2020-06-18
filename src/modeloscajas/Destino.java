@@ -5,6 +5,7 @@ public class Destino implements Comparable<Destino> {
 	private Integer cantidadCajas;
 	private String codigoPostal;
 	private Integer cantidadDePasadasPorScanner;
+	private Integer pasadaEnQueSeMato;	
 
 	public Integer getCantidadDePasadasPorScanner() {
 		return cantidadDePasadasPorScanner;
@@ -39,6 +40,14 @@ public class Destino implements Comparable<Destino> {
 
 	public void setCodigoPostal(String codigoPostal) {
 		this.codigoPostal = codigoPostal;
+	}
+
+	public Integer getPasadaEnQueSeMato() {
+		return pasadaEnQueSeMato;
+	}
+
+	public void setPasadaEnQueSeMato(Integer pasadaEnQueSeMato) {
+		this.pasadaEnQueSeMato = pasadaEnQueSeMato;
 	}
 
 	@Override
