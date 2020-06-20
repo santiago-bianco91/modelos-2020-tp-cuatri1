@@ -155,6 +155,11 @@ public class PasadaPorScanner {
 		}
 	}
 
+	/***
+	 * RECORRIDO DEL GRAFO/ARBOL EN PROFUNDIDAD PARA TOTALIZAR LA CANTIDAD DE NODOS QUE NO SON HOJAS
+	 * @param contadorPasadas
+	 * @return
+	 */
 	public ContadorPasadas obtenerCantidadPasdasHijas(ContadorPasadas contadorPasadas) {
 		if (this.pasadasPorScannerHijas == null) {
 			return contadorPasadas;

@@ -1,0 +1,21 @@
+CONFIGURACION: CONFIGURACION 1 SIN TIEMPO DE SETUP
+
+tiempo setup de scanner: 0.0
+tiempo procesamiento por caja: 1.0
+cantidad de destinos por pasadas: 2.0
+
+CODIGOS POSTALES CARGADOS: 
+
+A con cantidad de cajas: 10
+B con cantidad de cajas: 10
+C con cantidad de cajas: 10
+
+El destino A se mato en la pasada: 1
+
+El destino B se mato en la pasada: 3
+
+El destino C se mato en la pasada: 4
+
+TIEMPO TOTAL: 50.0
+
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos

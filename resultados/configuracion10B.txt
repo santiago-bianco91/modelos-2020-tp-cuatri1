@@ -1,0 +1,72 @@
+CONFIGURACION: CONFIGURACION 10 CON TIEMPO DE SETUP
+
+tiempo setup de scanner: 100.0
+tiempo procesamiento por caja: 1.0
+cantidad de destinos por pasadas: 4.0
+
+CODIGOS POSTALES CARGADOS: 
+
+A con cantidad de cajas: 60
+B con cantidad de cajas: 20
+C con cantidad de cajas: 10
+D con cantidad de cajas: 40
+E con cantidad de cajas: 80
+F con cantidad de cajas: 900
+G con cantidad de cajas: 50
+H con cantidad de cajas: 10
+I con cantidad de cajas: 400
+J con cantidad de cajas: 450
+K con cantidad de cajas: 200
+L con cantidad de cajas: 1200
+M con cantidad de cajas: 1000
+N con cantidad de cajas: 50
+O con cantidad de cajas: 90
+P con cantidad de cajas: 500
+Q con cantidad de cajas: 30
+R con cantidad de cajas: 120
+S con cantidad de cajas: 300
+T con cantidad de cajas: 200
+
+El destino L se mato en la pasada: 1
+
+El destino M se mato en la pasada: 2
+
+El destino F se mato en la pasada: 5
+
+El destino P se mato en la pasada: 6
+
+El destino J se mato en la pasada: 7
+
+El destino I se mato en la pasada: 8
+
+El destino S se mato en la pasada: 11
+
+El destino K se mato en la pasada: 12
+
+El destino T se mato en la pasada: 13
+
+El destino R se mato en la pasada: 14
+
+El destino O se mato en la pasada: 17
+
+El destino E se mato en la pasada: 18
+
+El destino A se mato en la pasada: 19
+
+El destino G se mato en la pasada: 20
+
+El destino N se mato en la pasada: 21
+
+El destino D se mato en la pasada: 23
+
+El destino Q se mato en la pasada: 24
+
+El destino B se mato en la pasada: 25
+
+El destino C se mato en la pasada: 27
+
+El destino H se mato en la pasada: 28
+
+TIEMPO TOTAL: 11950.0
+
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
