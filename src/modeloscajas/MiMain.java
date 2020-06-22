@@ -5,8 +5,9 @@ public class MiMain {
 	public static void main(String[] args) {
 
 		long tiempoInicial = System.currentTimeMillis();
-
-		PasadaPorScanner scanner = Configuraciones.configuracionDoceB();
+		
+		
+		PasadaPorScanner scanner = Configuraciones.seleccionarConfiguracion(args);
 		scanner.procesarCajas();
 		Double tiempoTotal = 0.0;
 

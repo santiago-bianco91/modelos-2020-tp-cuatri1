@@ -6,4 +6,19 @@ javac src/modeloscajas/*.java
 
 Parase en src y ejeccutar el programa
 
-2) java modeloscajas.MiMain
+2) java modeloscajas.MiMain x
+
+Donde x es:
+
+
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+2: 2020_1c_DistribucionCajas01b_3Codpost_2destinosporpasada_mismotiempo_con_setup
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
+
