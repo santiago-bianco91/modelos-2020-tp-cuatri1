@@ -102,4 +102,4 @@ El destino AE se mato en la pasada: 40
 
 TIEMPO TOTAL: 6200.0
 
-Tiempo de duracion de la corrida del algoritmo: 10.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos

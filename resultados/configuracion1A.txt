@@ -18,4 +18,4 @@ El destino C se mato en la pasada: 4
 
 TIEMPO TOTAL: 50.0
 
-Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 4.0 milisegundos

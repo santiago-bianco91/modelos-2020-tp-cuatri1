@@ -63,4 +63,4 @@ El destino R se mato en la pasada: 23
 
 TIEMPO TOTAL: 990.0
 
-Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 5.0 milisegundos

@@ -54,4 +54,4 @@ El destino O se mato en la pasada: 20
 
 TIEMPO TOTAL: 930.0
 
-Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 5.0 milisegundos
