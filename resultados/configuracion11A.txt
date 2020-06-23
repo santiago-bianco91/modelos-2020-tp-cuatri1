@@ -72,4 +72,4 @@ El destino U se mato en la pasada: 29
 
 TIEMPO TOTAL: 5100.0
 
-Tiempo de duracion de la corrida del algoritmo: 5.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos

@@ -66,4 +66,4 @@ El destino H se mato en la pasada: 25
 
 TIEMPO TOTAL: 10440.0
 
-Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos

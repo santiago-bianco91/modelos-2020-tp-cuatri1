@@ -27,4 +27,4 @@ El destino F se mato en la pasada: 8
 
 TIEMPO TOTAL: 460.0
 
-Tiempo de duracion de la corrida del algoritmo: 4.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos
