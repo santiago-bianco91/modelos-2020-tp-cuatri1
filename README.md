@@ -1,37 +1,12 @@
 PASOS
 
-1) Para generar los .class
-javac src/modeloscajas/*.java 
+1) Dar permisos a todos los archivos (estar parado sobre la carpeta raiz de la entrega, es decir a la altura de este README):
+ ejecutar: chmod +x * 
 
+2) Compilar el proyecto
+ ejecutar: ./compile.sh
 
-Parase en src y ejeccutar el programa
+3) Correr el algoritmo con todos los sets de datos
+ ejecutar: ./run.sh
 
-2) java modeloscajas.MiMain x
-
-Donde x es:
-
-
-1: 2020_1c_DistribucionCajas01_3Codpost_2destinosporpasada_mismotiempo
-2: 2020_1c_DistribucionCajas01b_3Codpost_2destinosporpasada_mismotiempo_con_setup
-3: 2020_1c_DistribucionCajas02_4Codpost_2destinosporpasada_mismotiempo
-4: 2020_1c_DistribucionCajas02b_4Codpost_2destinosporpasada_mismotiempo_con_setup
-5: 2020_1c_DistribucionCajas03_4Codpost_2destinosporpasada_disttiempo
-6: 2020_1c_DistribucionCajas03b_4Codpost_2destinosporpasada_disttiempo_con_setup
-7: 2020_1c_DistribucionCajas04_6Codpost_3destinosporpasada_disttiempo
-8: 2020_1c_DistribucionCajas04b_6Codpost_3destinosporpasada_disttiempo_con_setup
-9: 2020_1c_DistribucionCajas05_8Codpost_4destinosporpasada_mismotiempo
-10: 2020_1c_DistribucionCajas05b_8Codpost_4destinosporpasada_mismotiempo_con_setup
-11: 2020_1c_DistribucionCajas06_15Codpost_4destinosporpasada_mismotiempo
-12: 2020_1c_DistribucionCajas06b_15Codpost_4destinosporpasada_mismotiempo_con_setup
-13: 2020_1c_DistribucionCajas07_18Codpost_4destinosporpasada_mismotiempo
-14: 2020_1c_DistribucionCajas07b_18Codpost_4destinosporpasada_mismotiempo_con_setup
-15: 2020_1c_DistribucionCajas08_19Codpost_4destinosporpasada_mismotiempo
-16: 2020_1c_DistribucionCajas08b_19Codpost_4destinosporpasada_mismotiempo_con_setup
-17: 2020_1c_DistribucionCajas09_19Codpost_4destinosporpasada_disttiempo
-18: 2020_1c_DistribucionCajas09b_19Codpost_4destinosporpasada_disttiempo_con_setup
-19: 2020_1c_DistribucionCajas10_20Codpost_4destinosporpasada_disttiempo
-20: 2020_1c_DistribucionCajas10b_20Codpost_4destinosporpasada_disttiempo_con_setup
-21: 2020_1c_DistribucionCajas11_21Codpost_4destinosporpasada_mismotiempo
-22: 2020_1c_DistribucionCajas11b_21Codpost_4destinosporpasada_mismotiempo_con_setup
-23: 2020_1c_DistribucionCajas12_31Codpost_9destinosporpasada_mismotiempo
-24: 2020_1c_DistribucionCajas12b_31Codpost_9destinosporpasada_mismotiempo_con_setup
+4) Observar resultados en la carpeta "resultados"
