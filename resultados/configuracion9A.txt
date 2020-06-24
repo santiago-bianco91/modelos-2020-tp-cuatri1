@@ -26,44 +26,66 @@ Q con cantidad de cajas: 30
 R con cantidad de cajas: 120
 S con cantidad de cajas: 300
 
+RESULTADOS: 
+
+El lote de cajas de codigo postal L paso por los nodos/pasadas: 0 1
 El destino L se mato en la pasada: 1
 
+El lote de cajas de codigo postal M paso por los nodos/pasadas: 0 2
 El destino M se mato en la pasada: 2
 
+El lote de cajas de codigo postal F paso por los nodos/pasadas: 0 3
 El destino F se mato en la pasada: 3
 
+El lote de cajas de codigo postal P paso por los nodos/pasadas: 0 4 5
 El destino P se mato en la pasada: 5
 
+El lote de cajas de codigo postal J paso por los nodos/pasadas: 0 4 6
 El destino J se mato en la pasada: 6
 
+El lote de cajas de codigo postal I paso por los nodos/pasadas: 0 4 7
 El destino I se mato en la pasada: 7
 
+El lote de cajas de codigo postal S paso por los nodos/pasadas: 0 4 8 9
 El destino S se mato en la pasada: 9
 
+El lote de cajas de codigo postal K paso por los nodos/pasadas: 0 4 8 10
 El destino K se mato en la pasada: 10
 
+El lote de cajas de codigo postal R paso por los nodos/pasadas: 0 4 8 11 13
 El destino R se mato en la pasada: 13
 
+El lote de cajas de codigo postal O paso por los nodos/pasadas: 0 4 8 11 14
 El destino O se mato en la pasada: 14
 
+El lote de cajas de codigo postal E paso por los nodos/pasadas: 0 4 8 12 15
 El destino E se mato en la pasada: 15
 
+El lote de cajas de codigo postal A paso por los nodos/pasadas: 0 4 8 12 16
 El destino A se mato en la pasada: 16
 
+El lote de cajas de codigo postal G paso por los nodos/pasadas: 0 4 8 12 17
 El destino G se mato en la pasada: 17
 
+El lote de cajas de codigo postal N paso por los nodos/pasadas: 0 4 8 12 18 19
 El destino N se mato en la pasada: 19
 
+El lote de cajas de codigo postal D paso por los nodos/pasadas: 0 4 8 12 18 20
 El destino D se mato en la pasada: 20
 
+El lote de cajas de codigo postal Q paso por los nodos/pasadas: 0 4 8 12 18 21
 El destino Q se mato en la pasada: 21
 
+El lote de cajas de codigo postal B paso por los nodos/pasadas: 0 4 8 12 18 22 23
 El destino B se mato en la pasada: 23
 
+El lote de cajas de codigo postal C paso por los nodos/pasadas: 0 4 8 12 18 22 24
 El destino C se mato en la pasada: 24
 
+El lote de cajas de codigo postal H paso por los nodos/pasadas: 0 4 8 12 18 22 25
 El destino H se mato en la pasada: 25
+
 
 TIEMPO TOTAL: 9740.0
 
-Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 10.0 milisegundos

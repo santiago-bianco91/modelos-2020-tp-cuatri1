@@ -11,14 +11,21 @@ B con cantidad de cajas: 10
 C con cantidad de cajas: 10
 D con cantidad de cajas: 10
 
+RESULTADOS: 
+
+El lote de cajas de codigo postal A paso por los nodos/pasadas: 0 1
 El destino A se mato en la pasada: 1
 
+El lote de cajas de codigo postal B paso por los nodos/pasadas: 0 2 3
 El destino B se mato en la pasada: 3
 
+El lote de cajas de codigo postal C paso por los nodos/pasadas: 0 2 4 5
 El destino C se mato en la pasada: 5
 
+El lote de cajas de codigo postal D paso por los nodos/pasadas: 0 2 4 6
 El destino D se mato en la pasada: 6
+
 
 TIEMPO TOTAL: 410.0
 
-Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos

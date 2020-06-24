@@ -25,42 +25,63 @@ P con cantidad de cajas: 10
 Q con cantidad de cajas: 10
 R con cantidad de cajas: 10
 
+RESULTADOS: 
+
+El lote de cajas de codigo postal A paso por los nodos/pasadas: 0 1 5
 El destino A se mato en la pasada: 5
 
+El lote de cajas de codigo postal B paso por los nodos/pasadas: 0 1 6
 El destino B se mato en la pasada: 6
 
+El lote de cajas de codigo postal C paso por los nodos/pasadas: 0 1 7
 El destino C se mato en la pasada: 7
 
+El lote de cajas de codigo postal D paso por los nodos/pasadas: 0 1 8
 El destino D se mato en la pasada: 8
 
+El lote de cajas de codigo postal E paso por los nodos/pasadas: 0 2 9
 El destino E se mato en la pasada: 9
 
+El lote de cajas de codigo postal F paso por los nodos/pasadas: 0 2 10
 El destino F se mato en la pasada: 10
 
+El lote de cajas de codigo postal G paso por los nodos/pasadas: 0 2 11
 El destino G se mato en la pasada: 11
 
+El lote de cajas de codigo postal H paso por los nodos/pasadas: 0 2 12
 El destino H se mato en la pasada: 12
 
+El lote de cajas de codigo postal I paso por los nodos/pasadas: 0 3 13
 El destino I se mato en la pasada: 13
 
+El lote de cajas de codigo postal J paso por los nodos/pasadas: 0 3 14
 El destino J se mato en la pasada: 14
 
+El lote de cajas de codigo postal K paso por los nodos/pasadas: 0 3 15
 El destino K se mato en la pasada: 15
 
+El lote de cajas de codigo postal L paso por los nodos/pasadas: 0 3 16
 El destino L se mato en la pasada: 16
 
+El lote de cajas de codigo postal M paso por los nodos/pasadas: 0 4 17
 El destino M se mato en la pasada: 17
 
+El lote de cajas de codigo postal N paso por los nodos/pasadas: 0 4 18
 El destino N se mato en la pasada: 18
 
+El lote de cajas de codigo postal O paso por los nodos/pasadas: 0 4 19
 El destino O se mato en la pasada: 19
 
+El lote de cajas de codigo postal P paso por los nodos/pasadas: 0 4 20 21
 El destino P se mato en la pasada: 21
 
+El lote de cajas de codigo postal Q paso por los nodos/pasadas: 0 4 20 22
 El destino Q se mato en la pasada: 22
 
+El lote de cajas de codigo postal R paso por los nodos/pasadas: 0 4 20 23
 El destino R se mato en la pasada: 23
+
 
 TIEMPO TOTAL: 390.0
 
-Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 9.0 milisegundos

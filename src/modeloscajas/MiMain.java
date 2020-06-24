@@ -10,11 +10,13 @@ public class MiMain {
 		PasadaPorScanner scanner = Configuraciones.seleccionarConfiguracion(args);
 		scanner.procesarCajas();
 		Double tiempoTotal = 0.0;
+		System.out.println("\nRESULTADOS: \n");
 
 		for (Destino destino : scanner.getDestinos()) {
 			tiempoTotal += scanner.getTiempoProcesamintoPorCaja() * destino.getCantidadDePasadasPorScanner()
 					* destino.getCantidadCajas();
-			System.out.println("\n" + "El destino "+ destino.getCodigoPostal() +" se mato en la pasada: " + destino.getPasadaEnQueSeMato());
+			destino.mostrarNodosPorDondePaso();
+			System.out.println("El destino "+ destino.getCodigoPostal() +" se mato en la pasada: " + destino.getPasadaEnQueSeMato() + "\n");
 		}
 
 		tiempoTotal += scanner.obtenerCantidadPasdasHijas() * scanner.getTiempoSetup();

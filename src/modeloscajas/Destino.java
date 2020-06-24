@@ -1,11 +1,15 @@
 package modeloscajas;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Destino implements Comparable<Destino> {
 
 	private Integer cantidadCajas;
 	private String codigoPostal;
 	private Integer cantidadDePasadasPorScanner;
 	private Integer pasadaEnQueSeMato;	
+	private List<Integer> nodosPorLosQuePaso;
 
 	public Integer getCantidadDePasadasPorScanner() {
 		return cantidadDePasadasPorScanner;
@@ -24,6 +28,18 @@ public class Destino implements Comparable<Destino> {
 		this.cantidadCajas = cantidadCajas;
 		this.codigoPostal = codigoPostal;
 		this.cantidadDePasadasPorScanner = 0;
+		nodosPorLosQuePaso = new ArrayList<Integer>();
+	}
+	
+	public void agregarNodoPorDondePaso(Integer nodo) {
+		nodosPorLosQuePaso.add(nodo);
+	}
+	
+	public void mostrarNodosPorDondePaso() {
+		String mensaje = "El lote de cajas de codigo postal " + this.codigoPostal +  " paso por los nodos/pasadas: 0";
+		for (Integer nodo: this.nodosPorLosQuePaso)
+			mensaje+=  " " + nodo;
+		System.out.println(mensaje);
 	}
 
 	public Integer getCantidadCajas() {

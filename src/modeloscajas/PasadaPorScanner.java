@@ -129,10 +129,12 @@ public class PasadaPorScanner {
 					.get(this.pasadasPorScannerHijas.size() - 1);
 			if (!this.estaLlenoElScanner(ultimaPasadaPorScanner, destinoAAsignar) || esElUltimoScanner()) {
 				ultimaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
+				destinoAAsignar.agregarNodoPorDondePaso(ultimaPasadaPorScanner.getId());
 			} else {
 				PasadaPorScanner nuevaPasadaPorScanner = crearPasadaPorScannerHija();
 				nuevaPasadaPorScanner.agregarDestinoAProcesar(destinoAAsignar);
 				this.pasadasPorScannerHijas.add(nuevaPasadaPorScanner);
+				destinoAAsignar.agregarNodoPorDondePaso(nuevaPasadaPorScanner.getId());
 			}
 		}
 	}

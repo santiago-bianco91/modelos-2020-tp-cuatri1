@@ -15,22 +15,33 @@ F con cantidad de cajas: 10
 G con cantidad de cajas: 10
 H con cantidad de cajas: 10
 
+RESULTADOS: 
+
+El lote de cajas de codigo postal A paso por los nodos/pasadas: 0 1 5
 El destino A se mato en la pasada: 5
 
+El lote de cajas de codigo postal B paso por los nodos/pasadas: 0 1 6
 El destino B se mato en la pasada: 6
 
+El lote de cajas de codigo postal C paso por los nodos/pasadas: 0 2 7
 El destino C se mato en la pasada: 7
 
+El lote de cajas de codigo postal D paso por los nodos/pasadas: 0 2 8
 El destino D se mato en la pasada: 8
 
+El lote de cajas de codigo postal E paso por los nodos/pasadas: 0 3 9
 El destino E se mato en la pasada: 9
 
+El lote de cajas de codigo postal F paso por los nodos/pasadas: 0 3 10
 El destino F se mato en la pasada: 10
 
+El lote de cajas de codigo postal G paso por los nodos/pasadas: 0 4 11
 El destino G se mato en la pasada: 11
 
+El lote de cajas de codigo postal H paso por los nodos/pasadas: 0 4 12
 El destino H se mato en la pasada: 12
+
 
 TIEMPO TOTAL: 660.0
 
-Tiempo de duracion de la corrida del algoritmo: 6.0 milisegundos
+Tiempo de duracion de la corrida del algoritmo: 7.0 milisegundos
